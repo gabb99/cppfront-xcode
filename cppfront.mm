@@ -26,6 +26,8 @@ static auto enable_debug_output_files = false;
 
 BOOL cppfront(NSString* input, NSString* output, BOOL pure)
 {
+    // Will need to convert to project related base.
+
     std::cout << [input UTF8String] << "...";
 
     //  Load + lex + parse + sema

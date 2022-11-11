@@ -12,6 +12,139 @@
 		ABD10567291EAAFB0083B993 /* cppfront.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABD10502291E85A40083B993 /* cppfront.cpp */; };
 		ABD10568291EAB120083B993 /* cppfront.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10563291E95490083B993 /* cppfront.mm */; };
 		ABD1056A291EAB4C0083B993 /* cppfront.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10563291E95490083B993 /* cppfront.mm */; };
+		ABF6741D291EB946005A51EC /* msvc-msstl-e.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67368291EB8DF005A51EC /* msvc-msstl-e.cpp */; };
+		ABF6741E291EB946005A51EC /* clang-12-libstdc++-e.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67369291EB8DF005A51EC /* clang-12-libstdc++-e.cpp */; };
+		ABF6741F291EB946005A51EC /* gcc-10-libstdc++-e.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6736A291EB8DF005A51EC /* gcc-10-libstdc++-e.cpp2 */; };
+		ABF67420291EB946005A51EC /* clang-12-libstdc++-e.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6736B291EB8DF005A51EC /* clang-12-libstdc++-e.cpp2 */; };
+		ABF67421291EB946005A51EC /* gcc-10-libstdc++-e.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6736C291EB8DF005A51EC /* gcc-10-libstdc++-e.cpp */; };
+		ABF67422291EB946005A51EC /* msvc-msstl-e.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6736F291EB8DF005A51EC /* msvc-msstl-e.cpp2 */; };
+		ABF67424291EB981005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67375291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2 */; };
+		ABF67425291EB981005A51EC /* mixed-hello.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67376291EB8FB005A51EC /* mixed-hello.cpp2 */; };
+		ABF67426291EB981005A51EC /* pure2-intro-example-hello-2022.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67377291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp2 */; };
+		ABF67427291EB981005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67378291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2 */; };
+		ABF67428291EB981005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6737A291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2 */; };
+		ABF67429291EB981005A51EC /* mixed-function-expression-and-std-for-each.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6737B291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp2 */; };
+		ABF6742A291EB981005A51EC /* pure2-lifetime-safety-reject-null.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6737C291EB8FB005A51EC /* pure2-lifetime-safety-reject-null.cpp2 */; };
+		ABF6742B291EB981005A51EC /* mixed-function-expression-with-pointer-capture.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6737D291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp2 */; };
+		ABF6742C291EB981005A51EC /* mixed-bounds-safety-with-assert-2.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6737E291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp2 */; };
+		ABF6742D291EB981005A51EC /* pure2-intro-example-three-loops.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6737F291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp2 */; };
+		ABF6742E291EB981005A51EC /* mixed-initialization-safety-1.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67380291EB8FB005A51EC /* mixed-initialization-safety-1.cpp2 */; };
+		ABF6742F291EB981005A51EC /* mixed-parameter-passing.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67381291EB8FB005A51EC /* mixed-parameter-passing.cpp2 */; };
+		ABF67430291EB981005A51EC /* mixed-multiple-return-values.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67382291EB8FB005A51EC /* mixed-multiple-return-values.cpp2 */; };
+		ABF67431291EB981005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67383291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2 */; };
+		ABF67432291EB981005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67384291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2 */; };
+		ABF67433291EB981005A51EC /* pure2-type-safety-1.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67385291EB8FB005A51EC /* pure2-type-safety-1.cpp2 */; };
+		ABF67434291EB981005A51EC /* mixed-bounds-check.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67386291EB8FB005A51EC /* mixed-bounds-check.cpp2 */; };
+		ABF67435291EB981005A51EC /* mixed-allcpp1-hello.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67387291EB8FB005A51EC /* mixed-allcpp1-hello.cpp2 */; };
+		ABF67436291EB981005A51EC /* mixed-bounds-safety-with-assert.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67388291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp2 */; };
+		ABF67437291EB981005A51EC /* mixed-test-parens.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67389291EB8FB005A51EC /* mixed-test-parens.cpp2 */; };
+		ABF67438291EB981005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6738A291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2 */; };
+		ABF67439291EB981005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6738B291EB8FB005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2 */; };
+		ABF6743A291EB981005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6738C291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2 */; };
+		ABF6743B291EB981005A51EC /* mixed-intro-for-with-counter-include-last.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6738D291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp2 */; };
+		ABF6743C291EB981005A51EC /* mixed-intro-example-three-loops.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6738E291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp2 */; };
+		ABF6743D291EB981005A51EC /* mixed-postexpression-with-capture.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6738F291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp2 */; };
+		ABF6743E291EB981005A51EC /* mixed-postfix-expression-custom-formatting.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67390291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp2 */; };
+		ABF6743F291EB981005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67391291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2 */; };
+		ABF67440291EB981005A51EC /* mixed-function-expression-with-repeated-capture.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67392291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp2 */; };
+		ABF67441291EB981005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67393291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2 */; };
+		ABF67442291EB981005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67394291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2 */; };
+		ABF67443291EB981005A51EC /* mixed-parameter-passing-with-forward.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67395291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp2 */; };
+		ABF67444291EB981005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67396291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2 */; };
+		ABF67445291EB981005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67397291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2 */; };
+		ABF67446291EB981005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67398291EB8FB005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2 */; };
+		ABF67447291EB981005A51EC /* pure2-hello.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF67399291EB8FB005A51EC /* pure2-hello.cpp2 */; };
+		ABF67448291EB981005A51EC /* mixed-initialization-safety-2.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673EE291EB8FB005A51EC /* mixed-initialization-safety-2.cpp2 */; };
+		ABF67449291EB981005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673EF291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2 */; };
+		ABF6744A291EB981005A51EC /* mixed-initialization-safety-3.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F0291EB8FB005A51EC /* mixed-initialization-safety-3.cpp2 */; };
+		ABF6744B291EB981005A51EC /* pure2-stdio.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F1291EB8FB005A51EC /* pure2-stdio.cpp2 */; };
+		ABF6744C291EB981005A51EC /* mixed-string-interpolation.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F2291EB8FB005A51EC /* mixed-string-interpolation.cpp2 */; };
+		ABF6744D291EB981005A51EC /* mixed-type-safety-1.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F3291EB8FB005A51EC /* mixed-type-safety-1.cpp2 */; };
+		ABF6744E291EB981005A51EC /* pure2-bounds-safety-span.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F4291EB8FB005A51EC /* pure2-bounds-safety-span.cpp2 */; };
+		ABF6744F291EB981005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F5291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2 */; };
+		ABF67450291EB981005A51EC /* pure2-stdio-with-raii.cpp2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673F6291EB8FB005A51EC /* pure2-stdio-with-raii.cpp2 */; };
+		ABF67452291EB9B7005A51EC /* mixed-intro-for-with-counter-include-last.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6739B291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp */; };
+		ABF67453291EB9B7005A51EC /* mixed-postexpression-with-capture.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6739C291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp */; };
+		ABF67454291EB9B7005A51EC /* pure2-intro-example-hello-2022.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6739D291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp2.output */; };
+		ABF67455291EB9B7005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6739E291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp */; };
+		ABF67456291EB9B7005A51EC /* pure2-stdio-with-raii.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF6739F291EB8FB005A51EC /* pure2-stdio-with-raii.cpp */; };
+		ABF67457291EB9B7005A51EC /* pure2-hello.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A0291EB8FB005A51EC /* pure2-hello.cpp2.output */; };
+		ABF67458291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A1291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp */; };
+		ABF67459291EB9B7005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A2291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2.output */; };
+		ABF6745A291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A3291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2.output */; };
+		ABF6745B291EB9B7005A51EC /* mixed-multiple-return-values.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A4291EB8FB005A51EC /* mixed-multiple-return-values.cpp */; };
+		ABF6745C291EB9B7005A51EC /* mixed-type-safety-1.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A6291EB8FB005A51EC /* mixed-type-safety-1.cpp */; };
+		ABF6745D291EB9B7005A51EC /* mixed-intro-for-with-counter-include-last.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A7291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp2.output */; };
+		ABF6745E291EB9B7005A51EC /* mixed-hello.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A8291EB8FB005A51EC /* mixed-hello.cpp2.output */; };
+		ABF6745F291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673A9291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2.output */; };
+		ABF67460291EB9B7005A51EC /* pure2-type-safety-1.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673AA291EB8FB005A51EC /* pure2-type-safety-1.cpp */; };
+		ABF67461291EB9B7005A51EC /* mixed-postfix-expression-custom-formatting.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673AB291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp2.output */; };
+		ABF67462291EB9B7005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673AC291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp */; };
+		ABF67463291EB9B7005A51EC /* mixed-function-expression-with-pointer-capture.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673AD291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp2.output */; };
+		ABF67464291EB9B7005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673AE291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp */; };
+		ABF67465291EB9B7005A51EC /* mixed-test-parens.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673AF291EB8FB005A51EC /* mixed-test-parens.cpp2.output */; };
+		ABF67466291EB9B7005A51EC /* mixed-intro-example-three-loops.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B0291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp */; };
+		ABF67467291EB9B7005A51EC /* mixed-initialization-safety-3.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B1291EB8FB005A51EC /* mixed-initialization-safety-3.cpp2.output */; };
+		ABF67468291EB9B7005A51EC /* mixed-string-interpolation.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B2291EB8FB005A51EC /* mixed-string-interpolation.cpp2.output */; };
+		ABF67469291EB9B7005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B3291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2.output */; };
+		ABF6746A291EB9B7005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B4291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp */; };
+		ABF6746B291EB9B7005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B5291EB8FB005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2.output */; };
+		ABF6746C291EB9B7005A51EC /* mixed-test-parens.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B6291EB8FB005A51EC /* mixed-test-parens.cpp */; };
+		ABF6746D291EB9B7005A51EC /* mixed-type-safety-1.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B7291EB8FB005A51EC /* mixed-type-safety-1.cpp2.output */; };
+		ABF6746E291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B8291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2.output */; };
+		ABF6746F291EB9B7005A51EC /* mixed-function-expression-with-repeated-capture.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673B9291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp */; };
+		ABF67470291EB9B7005A51EC /* mixed-parameter-passing-with-forward.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673BA291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp */; };
+		ABF67471291EB9B7005A51EC /* pure2-bounds-safety-span.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673BB291EB8FB005A51EC /* pure2-bounds-safety-span.cpp2.output */; };
+		ABF67472291EB9B7005A51EC /* pure2-intro-example-hello-2022.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673BC291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp */; };
+		ABF67473291EB9B7005A51EC /* mixed-parameter-passing.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673BD291EB8FB005A51EC /* mixed-parameter-passing.cpp */; };
+		ABF67474291EB9B7005A51EC /* mixed-intro-example-three-loops.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673BE291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp2.output */; };
+		ABF67475291EB9B7005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673BF291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp */; };
+		ABF67476291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C0291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp */; };
+		ABF67477291EB9B7005A51EC /* pure2-type-safety-1.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C1291EB8FB005A51EC /* pure2-type-safety-1.cpp2.output */; };
+		ABF67478291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C2291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp */; };
+		ABF67479291EB9B7005A51EC /* mixed-string-interpolation.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C3291EB8FB005A51EC /* mixed-string-interpolation.cpp */; };
+		ABF6747A291EB9B7005A51EC /* mixed-initialization-safety-2.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C4291EB8FB005A51EC /* mixed-initialization-safety-2.cpp2.output */; };
+		ABF6747B291EB9B7005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C5291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp */; };
+		ABF6747C291EB9B7005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C6291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2.output */; };
+		ABF6747D291EB9B7005A51EC /* mixed-postfix-expression-custom-formatting.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C7291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp */; };
+		ABF6747E291EB9B7005A51EC /* pure2-stdio.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C8291EB8FB005A51EC /* pure2-stdio.cpp */; };
+		ABF6747F291EB9B7005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673C9291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2.output */; };
+		ABF67480291EB9B7005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673CA291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp */; };
+		ABF67481291EB9B7005A51EC /* pure2-intro-example-three-loops.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673CB291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp2.output */; };
+		ABF67482291EB9B7005A51EC /* pure2-stdio-with-raii.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673CC291EB8FB005A51EC /* pure2-stdio-with-raii.cpp2.output */; };
+		ABF67483291EB9B7005A51EC /* mixed-function-expression-and-std-for-each.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673CD291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp2.output */; };
+		ABF67484291EB9B7005A51EC /* pure2-intro-example-three-loops.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673CE291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp */; };
+		ABF67485291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673CF291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2.output */; };
+		ABF67486291EB9B7005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D0291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp */; };
+		ABF67487291EB9B7005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D1291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2.output */; };
+		ABF67488291EB9B7005A51EC /* mixed-bounds-check.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D2291EB8FB005A51EC /* mixed-bounds-check.cpp2.output */; };
+		ABF67489291EB9B7005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D3291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2.output */; };
+		ABF6748A291EB9B7005A51EC /* pure2-hello.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D4291EB8FB005A51EC /* pure2-hello.cpp */; };
+		ABF6748B291EB9B7005A51EC /* pure2-bounds-safety-span.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D5291EB8FB005A51EC /* pure2-bounds-safety-span.cpp */; };
+		ABF6748C291EB9B7005A51EC /* mixed-allcpp1-hello.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D6291EB8FB005A51EC /* mixed-allcpp1-hello.cpp2.output */; };
+		ABF6748D291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D7291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2.output */; };
+		ABF6748E291EB9B7005A51EC /* pure2-lifetime-safety-reject-null.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D8291EB8FB005A51EC /* pure2-lifetime-safety-reject-null.cpp2.output */; };
+		ABF6748F291EB9B7005A51EC /* mixed-multiple-return-values.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673D9291EB8FB005A51EC /* mixed-multiple-return-values.cpp2.output */; };
+		ABF67490291EB9B7005A51EC /* mixed-postexpression-with-capture.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673DA291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp2.output */; };
+		ABF67491291EB9B7005A51EC /* mixed-bounds-safety-with-assert.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673DB291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp */; };
+		ABF67492291EB9B7005A51EC /* pure2-stdio.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673DC291EB8FB005A51EC /* pure2-stdio.cpp2.output */; };
+		ABF67493291EB9B7005A51EC /* mixed-bounds-safety-with-assert.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673DD291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp2.output */; };
+		ABF67494291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673DE291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2.output */; };
+		ABF67495291EB9B7005A51EC /* mixed-initialization-safety-3.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673DF291EB8FB005A51EC /* mixed-initialization-safety-3.cpp */; };
+		ABF67496291EB9B7005A51EC /* mixed-function-expression-with-repeated-capture.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E0291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp2.output */; };
+		ABF67497291EB9B7005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E1291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2.output */; };
+		ABF67498291EB9B7005A51EC /* mixed-function-expression-with-pointer-capture.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E2291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp */; };
+		ABF67499291EB9B7005A51EC /* mixed-hello.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E3291EB8FB005A51EC /* mixed-hello.cpp */; };
+		ABF6749A291EB9B7005A51EC /* mixed-parameter-passing.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E4291EB8FB005A51EC /* mixed-parameter-passing.cpp2.output */; };
+		ABF6749B291EB9B7005A51EC /* mixed-function-expression-and-std-for-each.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E5291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp */; };
+		ABF6749C291EB9B7005A51EC /* mixed-parameter-passing-with-forward.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E6291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp2.output */; };
+		ABF6749D291EB9B7005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E7291EB8FB005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2.output */; };
+		ABF6749E291EB9B7005A51EC /* mixed-bounds-safety-with-assert-2.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E8291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp */; };
+		ABF6749F291EB9B7005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673E9291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2.output */; };
+		ABF674A0291EB9B7005A51EC /* mixed-bounds-check.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673EA291EB8FB005A51EC /* mixed-bounds-check.cpp */; };
+		ABF674A1291EB9B8005A51EC /* mixed-bounds-safety-with-assert-2.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673EB291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp2.output */; };
+		ABF674A2291EB9B8005A51EC /* mixed-allcpp1-hello.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673EC291EB8FB005A51EC /* mixed-allcpp1-hello.cpp */; };
+		ABF674A3291EB9B8005A51EC /* mixed-initialization-safety-1.cpp2.output in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABF673ED291EB8FB005A51EC /* mixed-initialization-safety-1.cpp2.output */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +165,165 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ABD104F5291E83280083B993 /* CopyFiles */ = {
+		ABF6741C291EB927005A51EC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "passthrough-tests";
+			dstSubfolderSpec = 1;
 			files = (
+				ABF6741D291EB946005A51EC /* msvc-msstl-e.cpp in CopyFiles */,
+				ABF6741E291EB946005A51EC /* clang-12-libstdc++-e.cpp in CopyFiles */,
+				ABF6741F291EB946005A51EC /* gcc-10-libstdc++-e.cpp2 in CopyFiles */,
+				ABF67420291EB946005A51EC /* clang-12-libstdc++-e.cpp2 in CopyFiles */,
+				ABF67421291EB946005A51EC /* gcc-10-libstdc++-e.cpp in CopyFiles */,
+				ABF67422291EB946005A51EC /* msvc-msstl-e.cpp2 in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF67423291EB95C005A51EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "regression-tests";
+			dstSubfolderSpec = 1;
+			files = (
+				ABF67424291EB981005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2 in CopyFiles */,
+				ABF67425291EB981005A51EC /* mixed-hello.cpp2 in CopyFiles */,
+				ABF67426291EB981005A51EC /* pure2-intro-example-hello-2022.cpp2 in CopyFiles */,
+				ABF67427291EB981005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2 in CopyFiles */,
+				ABF67428291EB981005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2 in CopyFiles */,
+				ABF67429291EB981005A51EC /* mixed-function-expression-and-std-for-each.cpp2 in CopyFiles */,
+				ABF6742A291EB981005A51EC /* pure2-lifetime-safety-reject-null.cpp2 in CopyFiles */,
+				ABF6742B291EB981005A51EC /* mixed-function-expression-with-pointer-capture.cpp2 in CopyFiles */,
+				ABF6742C291EB981005A51EC /* mixed-bounds-safety-with-assert-2.cpp2 in CopyFiles */,
+				ABF6742D291EB981005A51EC /* pure2-intro-example-three-loops.cpp2 in CopyFiles */,
+				ABF6742E291EB981005A51EC /* mixed-initialization-safety-1.cpp2 in CopyFiles */,
+				ABF6742F291EB981005A51EC /* mixed-parameter-passing.cpp2 in CopyFiles */,
+				ABF67430291EB981005A51EC /* mixed-multiple-return-values.cpp2 in CopyFiles */,
+				ABF67431291EB981005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2 in CopyFiles */,
+				ABF67432291EB981005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2 in CopyFiles */,
+				ABF67433291EB981005A51EC /* pure2-type-safety-1.cpp2 in CopyFiles */,
+				ABF67434291EB981005A51EC /* mixed-bounds-check.cpp2 in CopyFiles */,
+				ABF67435291EB981005A51EC /* mixed-allcpp1-hello.cpp2 in CopyFiles */,
+				ABF67436291EB981005A51EC /* mixed-bounds-safety-with-assert.cpp2 in CopyFiles */,
+				ABF67437291EB981005A51EC /* mixed-test-parens.cpp2 in CopyFiles */,
+				ABF67438291EB981005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2 in CopyFiles */,
+				ABF67439291EB981005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2 in CopyFiles */,
+				ABF6743A291EB981005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2 in CopyFiles */,
+				ABF6743B291EB981005A51EC /* mixed-intro-for-with-counter-include-last.cpp2 in CopyFiles */,
+				ABF6743C291EB981005A51EC /* mixed-intro-example-three-loops.cpp2 in CopyFiles */,
+				ABF6743D291EB981005A51EC /* mixed-postexpression-with-capture.cpp2 in CopyFiles */,
+				ABF6743E291EB981005A51EC /* mixed-postfix-expression-custom-formatting.cpp2 in CopyFiles */,
+				ABF6743F291EB981005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2 in CopyFiles */,
+				ABF67440291EB981005A51EC /* mixed-function-expression-with-repeated-capture.cpp2 in CopyFiles */,
+				ABF67441291EB981005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2 in CopyFiles */,
+				ABF67442291EB981005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2 in CopyFiles */,
+				ABF67443291EB981005A51EC /* mixed-parameter-passing-with-forward.cpp2 in CopyFiles */,
+				ABF67444291EB981005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2 in CopyFiles */,
+				ABF67445291EB981005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2 in CopyFiles */,
+				ABF67446291EB981005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2 in CopyFiles */,
+				ABF67447291EB981005A51EC /* pure2-hello.cpp2 in CopyFiles */,
+				ABF67448291EB981005A51EC /* mixed-initialization-safety-2.cpp2 in CopyFiles */,
+				ABF67449291EB981005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2 in CopyFiles */,
+				ABF6744A291EB981005A51EC /* mixed-initialization-safety-3.cpp2 in CopyFiles */,
+				ABF6744B291EB981005A51EC /* pure2-stdio.cpp2 in CopyFiles */,
+				ABF6744C291EB981005A51EC /* mixed-string-interpolation.cpp2 in CopyFiles */,
+				ABF6744D291EB981005A51EC /* mixed-type-safety-1.cpp2 in CopyFiles */,
+				ABF6744E291EB981005A51EC /* pure2-bounds-safety-span.cpp2 in CopyFiles */,
+				ABF6744F291EB981005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2 in CopyFiles */,
+				ABF67450291EB981005A51EC /* pure2-stdio-with-raii.cpp2 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF67451291EB98D005A51EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "regression-tests/test-results";
+			dstSubfolderSpec = 1;
+			files = (
+				ABF67452291EB9B7005A51EC /* mixed-intro-for-with-counter-include-last.cpp in CopyFiles */,
+				ABF67453291EB9B7005A51EC /* mixed-postexpression-with-capture.cpp in CopyFiles */,
+				ABF67454291EB9B7005A51EC /* pure2-intro-example-hello-2022.cpp2.output in CopyFiles */,
+				ABF67455291EB9B7005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp in CopyFiles */,
+				ABF67456291EB9B7005A51EC /* pure2-stdio-with-raii.cpp in CopyFiles */,
+				ABF67457291EB9B7005A51EC /* pure2-hello.cpp2.output in CopyFiles */,
+				ABF67458291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp in CopyFiles */,
+				ABF67459291EB9B7005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2.output in CopyFiles */,
+				ABF6745A291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2.output in CopyFiles */,
+				ABF6745B291EB9B7005A51EC /* mixed-multiple-return-values.cpp in CopyFiles */,
+				ABF6745C291EB9B7005A51EC /* mixed-type-safety-1.cpp in CopyFiles */,
+				ABF6745D291EB9B7005A51EC /* mixed-intro-for-with-counter-include-last.cpp2.output in CopyFiles */,
+				ABF6745E291EB9B7005A51EC /* mixed-hello.cpp2.output in CopyFiles */,
+				ABF6745F291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2.output in CopyFiles */,
+				ABF67460291EB9B7005A51EC /* pure2-type-safety-1.cpp in CopyFiles */,
+				ABF67461291EB9B7005A51EC /* mixed-postfix-expression-custom-formatting.cpp2.output in CopyFiles */,
+				ABF67462291EB9B7005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp in CopyFiles */,
+				ABF67463291EB9B7005A51EC /* mixed-function-expression-with-pointer-capture.cpp2.output in CopyFiles */,
+				ABF67464291EB9B7005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp in CopyFiles */,
+				ABF67465291EB9B7005A51EC /* mixed-test-parens.cpp2.output in CopyFiles */,
+				ABF67466291EB9B7005A51EC /* mixed-intro-example-three-loops.cpp in CopyFiles */,
+				ABF67467291EB9B7005A51EC /* mixed-initialization-safety-3.cpp2.output in CopyFiles */,
+				ABF67468291EB9B7005A51EC /* mixed-string-interpolation.cpp2.output in CopyFiles */,
+				ABF67469291EB9B7005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2.output in CopyFiles */,
+				ABF6746A291EB9B7005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp in CopyFiles */,
+				ABF6746B291EB9B7005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2.output in CopyFiles */,
+				ABF6746C291EB9B7005A51EC /* mixed-test-parens.cpp in CopyFiles */,
+				ABF6746D291EB9B7005A51EC /* mixed-type-safety-1.cpp2.output in CopyFiles */,
+				ABF6746E291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2.output in CopyFiles */,
+				ABF6746F291EB9B7005A51EC /* mixed-function-expression-with-repeated-capture.cpp in CopyFiles */,
+				ABF67470291EB9B7005A51EC /* mixed-parameter-passing-with-forward.cpp in CopyFiles */,
+				ABF67471291EB9B7005A51EC /* pure2-bounds-safety-span.cpp2.output in CopyFiles */,
+				ABF67472291EB9B7005A51EC /* pure2-intro-example-hello-2022.cpp in CopyFiles */,
+				ABF67473291EB9B7005A51EC /* mixed-parameter-passing.cpp in CopyFiles */,
+				ABF67474291EB9B7005A51EC /* mixed-intro-example-three-loops.cpp2.output in CopyFiles */,
+				ABF67475291EB9B7005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp in CopyFiles */,
+				ABF67476291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp in CopyFiles */,
+				ABF67477291EB9B7005A51EC /* pure2-type-safety-1.cpp2.output in CopyFiles */,
+				ABF67478291EB9B7005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp in CopyFiles */,
+				ABF67479291EB9B7005A51EC /* mixed-string-interpolation.cpp in CopyFiles */,
+				ABF6747A291EB9B7005A51EC /* mixed-initialization-safety-2.cpp2.output in CopyFiles */,
+				ABF6747B291EB9B7005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp in CopyFiles */,
+				ABF6747C291EB9B7005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2.output in CopyFiles */,
+				ABF6747D291EB9B7005A51EC /* mixed-postfix-expression-custom-formatting.cpp in CopyFiles */,
+				ABF6747E291EB9B7005A51EC /* pure2-stdio.cpp in CopyFiles */,
+				ABF6747F291EB9B7005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2.output in CopyFiles */,
+				ABF67480291EB9B7005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp in CopyFiles */,
+				ABF67481291EB9B7005A51EC /* pure2-intro-example-three-loops.cpp2.output in CopyFiles */,
+				ABF67482291EB9B7005A51EC /* pure2-stdio-with-raii.cpp2.output in CopyFiles */,
+				ABF67483291EB9B7005A51EC /* mixed-function-expression-and-std-for-each.cpp2.output in CopyFiles */,
+				ABF67484291EB9B7005A51EC /* pure2-intro-example-three-loops.cpp in CopyFiles */,
+				ABF67485291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2.output in CopyFiles */,
+				ABF67486291EB9B7005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp in CopyFiles */,
+				ABF67487291EB9B7005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2.output in CopyFiles */,
+				ABF67488291EB9B7005A51EC /* mixed-bounds-check.cpp2.output in CopyFiles */,
+				ABF67489291EB9B7005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2.output in CopyFiles */,
+				ABF6748A291EB9B7005A51EC /* pure2-hello.cpp in CopyFiles */,
+				ABF6748B291EB9B7005A51EC /* pure2-bounds-safety-span.cpp in CopyFiles */,
+				ABF6748C291EB9B7005A51EC /* mixed-allcpp1-hello.cpp2.output in CopyFiles */,
+				ABF6748D291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2.output in CopyFiles */,
+				ABF6748E291EB9B7005A51EC /* pure2-lifetime-safety-reject-null.cpp2.output in CopyFiles */,
+				ABF6748F291EB9B7005A51EC /* mixed-multiple-return-values.cpp2.output in CopyFiles */,
+				ABF67490291EB9B7005A51EC /* mixed-postexpression-with-capture.cpp2.output in CopyFiles */,
+				ABF67491291EB9B7005A51EC /* mixed-bounds-safety-with-assert.cpp in CopyFiles */,
+				ABF67492291EB9B7005A51EC /* pure2-stdio.cpp2.output in CopyFiles */,
+				ABF67493291EB9B7005A51EC /* mixed-bounds-safety-with-assert.cpp2.output in CopyFiles */,
+				ABF67494291EB9B7005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2.output in CopyFiles */,
+				ABF67495291EB9B7005A51EC /* mixed-initialization-safety-3.cpp in CopyFiles */,
+				ABF67496291EB9B7005A51EC /* mixed-function-expression-with-repeated-capture.cpp2.output in CopyFiles */,
+				ABF67497291EB9B7005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2.output in CopyFiles */,
+				ABF67498291EB9B7005A51EC /* mixed-function-expression-with-pointer-capture.cpp in CopyFiles */,
+				ABF67499291EB9B7005A51EC /* mixed-hello.cpp in CopyFiles */,
+				ABF6749A291EB9B7005A51EC /* mixed-parameter-passing.cpp2.output in CopyFiles */,
+				ABF6749B291EB9B7005A51EC /* mixed-function-expression-and-std-for-each.cpp in CopyFiles */,
+				ABF6749C291EB9B7005A51EC /* mixed-parameter-passing-with-forward.cpp2.output in CopyFiles */,
+				ABF6749D291EB9B7005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2.output in CopyFiles */,
+				ABF6749E291EB9B7005A51EC /* mixed-bounds-safety-with-assert-2.cpp in CopyFiles */,
+				ABF6749F291EB9B7005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2.output in CopyFiles */,
+				ABF674A0291EB9B7005A51EC /* mixed-bounds-check.cpp in CopyFiles */,
+				ABF674A1291EB9B8005A51EC /* mixed-bounds-safety-with-assert-2.cpp2.output in CopyFiles */,
+				ABF674A2291EB9B8005A51EC /* mixed-allcpp1-hello.cpp in CopyFiles */,
+				ABF674A3291EB9B8005A51EC /* mixed-initialization-safety-1.cpp2.output in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -60,6 +344,140 @@
 		ABD10563291E95490083B993 /* cppfront.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cppfront.mm; sourceTree = "<group>"; };
 		ABD10566291E95CF0083B993 /* cppfront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cppfront.h; sourceTree = "<group>"; };
 		ABD1056B291EAD9E0083B993 /* cppfront_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cppfront_impl.h; sourceTree = "<group>"; };
+		ABF67368291EB8DF005A51EC /* msvc-msstl-e.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "msvc-msstl-e.cpp"; sourceTree = "<group>"; };
+		ABF67369291EB8DF005A51EC /* clang-12-libstdc++-e.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "clang-12-libstdc++-e.cpp"; sourceTree = "<group>"; };
+		ABF6736A291EB8DF005A51EC /* gcc-10-libstdc++-e.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gcc-10-libstdc++-e.cpp2"; sourceTree = "<group>"; };
+		ABF6736B291EB8DF005A51EC /* clang-12-libstdc++-e.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "clang-12-libstdc++-e.cpp2"; sourceTree = "<group>"; };
+		ABF6736C291EB8DF005A51EC /* gcc-10-libstdc++-e.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gcc-10-libstdc++-e.cpp"; sourceTree = "<group>"; };
+		ABF6736E291EB8DF005A51EC /* all-std.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "all-std.cxx"; sourceTree = "<group>"; };
+		ABF6736F291EB8DF005A51EC /* msvc-msstl-e.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "msvc-msstl-e.cpp2"; sourceTree = "<group>"; };
+		ABF67375291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-captures-in-expressions-and-postconditions.cpp2"; sourceTree = "<group>"; };
+		ABF67376291EB8FB005A51EC /* mixed-hello.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-hello.cpp2"; sourceTree = "<group>"; };
+		ABF67377291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-intro-example-hello-2022.cpp2"; sourceTree = "<group>"; };
+		ABF67378291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2"; sourceTree = "<group>"; };
+		ABF6737A291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-fallback-with-variant-any-optional.cpp2"; sourceTree = "<group>"; };
+		ABF6737B291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-and-std-for-each.cpp2"; sourceTree = "<group>"; };
+		ABF6737C291EB8FB005A51EC /* pure2-lifetime-safety-reject-null.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-lifetime-safety-reject-null.cpp2"; sourceTree = "<group>"; };
+		ABF6737D291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-with-pointer-capture.cpp2"; sourceTree = "<group>"; };
+		ABF6737E291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-bounds-safety-with-assert-2.cpp2"; sourceTree = "<group>"; };
+		ABF6737F291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-intro-example-three-loops.cpp2"; sourceTree = "<group>"; };
+		ABF67380291EB8FB005A51EC /* mixed-initialization-safety-1.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-initialization-safety-1.cpp2"; sourceTree = "<group>"; };
+		ABF67381291EB8FB005A51EC /* mixed-parameter-passing.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-parameter-passing.cpp2"; sourceTree = "<group>"; };
+		ABF67382291EB8FB005A51EC /* mixed-multiple-return-values.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-multiple-return-values.cpp2"; sourceTree = "<group>"; };
+		ABF67383291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-bugfix-for-name-lookup-and-value-decoration.cpp2"; sourceTree = "<group>"; };
+		ABF67384291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-1.cpp2"; sourceTree = "<group>"; };
+		ABF67385291EB8FB005A51EC /* pure2-type-safety-1.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-type-safety-1.cpp2"; sourceTree = "<group>"; };
+		ABF67386291EB8FB005A51EC /* mixed-bounds-check.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-bounds-check.cpp2"; sourceTree = "<group>"; };
+		ABF67387291EB8FB005A51EC /* mixed-allcpp1-hello.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-allcpp1-hello.cpp2"; sourceTree = "<group>"; };
+		ABF67388291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-bounds-safety-with-assert.cpp2"; sourceTree = "<group>"; };
+		ABF67389291EB8FB005A51EC /* mixed-test-parens.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-test-parens.cpp2"; sourceTree = "<group>"; };
+		ABF6738A291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-and-null-contracts.cpp2"; sourceTree = "<group>"; };
+		ABF6738B291EB8FB005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-bounds-safety-pointer-arithmetic-error.cpp2"; sourceTree = "<group>"; };
+		ABF6738C291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-3.cpp2"; sourceTree = "<group>"; };
+		ABF6738D291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-intro-for-with-counter-include-last.cpp2"; sourceTree = "<group>"; };
+		ABF6738E291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-intro-example-three-loops.cpp2"; sourceTree = "<group>"; };
+		ABF6738F291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-postexpression-with-capture.cpp2"; sourceTree = "<group>"; };
+		ABF67390291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-postfix-expression-custom-formatting.cpp2"; sourceTree = "<group>"; };
+		ABF67391291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2"; sourceTree = "<group>"; };
+		ABF67392291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-with-repeated-capture.cpp2"; sourceTree = "<group>"; };
+		ABF67393291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-expression-in-generic-function-multiple-types.cpp2"; sourceTree = "<group>"; };
+		ABF67394291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-2.cpp2"; sourceTree = "<group>"; };
+		ABF67395291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-parameter-passing-with-forward.cpp2"; sourceTree = "<group>"; };
+		ABF67396291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-and-std-ranges-for-each.cpp2"; sourceTree = "<group>"; };
+		ABF67397291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-expression-with-as-in-generic-function.cpp2"; sourceTree = "<group>"; };
+		ABF67398291EB8FB005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-lifetime-safety-pointer-init-1.cpp2"; sourceTree = "<group>"; };
+		ABF67399291EB8FB005A51EC /* pure2-hello.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-hello.cpp2"; sourceTree = "<group>"; };
+		ABF6739B291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-intro-for-with-counter-include-last.cpp"; sourceTree = "<group>"; };
+		ABF6739C291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-postexpression-with-capture.cpp"; sourceTree = "<group>"; };
+		ABF6739D291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-intro-example-hello-2022.cpp2.output"; sourceTree = "<group>"; };
+		ABF6739E291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-inspect-expression-in-generic-function-multiple-types.cpp"; sourceTree = "<group>"; };
+		ABF6739F291EB8FB005A51EC /* pure2-stdio-with-raii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-stdio-with-raii.cpp"; sourceTree = "<group>"; };
+		ABF673A0291EB8FB005A51EC /* pure2-hello.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-hello.cpp2.output"; sourceTree = "<group>"; };
+		ABF673A1291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-lifetime-safety-pointer-init-4.cpp"; sourceTree = "<group>"; };
+		ABF673A2291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-and-null-contracts.cpp2.output"; sourceTree = "<group>"; };
+		ABF673A3291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2.output"; sourceTree = "<group>"; };
+		ABF673A4291EB8FB005A51EC /* mixed-multiple-return-values.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-multiple-return-values.cpp"; sourceTree = "<group>"; };
+		ABF673A6291EB8FB005A51EC /* mixed-type-safety-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-type-safety-1.cpp"; sourceTree = "<group>"; };
+		ABF673A7291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-intro-for-with-counter-include-last.cpp2.output"; sourceTree = "<group>"; };
+		ABF673A8291EB8FB005A51EC /* mixed-hello.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-hello.cpp2.output"; sourceTree = "<group>"; };
+		ABF673A9291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-and-std-ranges-for-each.cpp2.output"; sourceTree = "<group>"; };
+		ABF673AA291EB8FB005A51EC /* pure2-type-safety-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-type-safety-1.cpp"; sourceTree = "<group>"; };
+		ABF673AB291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-postfix-expression-custom-formatting.cpp2.output"; sourceTree = "<group>"; };
+		ABF673AC291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-lifetime-safety-and-null-contracts.cpp"; sourceTree = "<group>"; };
+		ABF673AD291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-with-pointer-capture.cpp2.output"; sourceTree = "<group>"; };
+		ABF673AE291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-inspect-expression-with-as-in-generic-function.cpp"; sourceTree = "<group>"; };
+		ABF673AF291EB8FB005A51EC /* mixed-test-parens.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-test-parens.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B0291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-intro-example-three-loops.cpp"; sourceTree = "<group>"; };
+		ABF673B1291EB8FB005A51EC /* mixed-initialization-safety-3.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-initialization-safety-3.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B2291EB8FB005A51EC /* mixed-string-interpolation.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-string-interpolation.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B3291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-fallback-with-variant-any-optional.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B4291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-type-safety-2-with-inspect-expression.cpp"; sourceTree = "<group>"; };
+		ABF673B5291EB8FB005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-bounds-safety-pointer-arithmetic-error.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B6291EB8FB005A51EC /* mixed-test-parens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-test-parens.cpp"; sourceTree = "<group>"; };
+		ABF673B7291EB8FB005A51EC /* mixed-type-safety-1.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-type-safety-1.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B8291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-3.cpp2.output"; sourceTree = "<group>"; };
+		ABF673B9291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-function-expression-with-repeated-capture.cpp"; sourceTree = "<group>"; };
+		ABF673BA291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-parameter-passing-with-forward.cpp"; sourceTree = "<group>"; };
+		ABF673BB291EB8FB005A51EC /* pure2-bounds-safety-span.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-bounds-safety-span.cpp2.output"; sourceTree = "<group>"; };
+		ABF673BC291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-intro-example-hello-2022.cpp"; sourceTree = "<group>"; };
+		ABF673BD291EB8FB005A51EC /* mixed-parameter-passing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-parameter-passing.cpp"; sourceTree = "<group>"; };
+		ABF673BE291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-intro-example-three-loops.cpp2.output"; sourceTree = "<group>"; };
+		ABF673BF291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-inspect-generic-void-empty-with-variant-any-optional.cpp"; sourceTree = "<group>"; };
+		ABF673C0291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-function-expression-and-std-ranges-for-each.cpp"; sourceTree = "<group>"; };
+		ABF673C1291EB8FB005A51EC /* pure2-type-safety-1.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-type-safety-1.cpp2.output"; sourceTree = "<group>"; };
+		ABF673C2291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-function-expression-and-std-ranges-for-each-with-capture.cpp"; sourceTree = "<group>"; };
+		ABF673C3291EB8FB005A51EC /* mixed-string-interpolation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-string-interpolation.cpp"; sourceTree = "<group>"; };
+		ABF673C4291EB8FB005A51EC /* mixed-initialization-safety-2.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-initialization-safety-2.cpp2.output"; sourceTree = "<group>"; };
+		ABF673C5291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-captures-in-expressions-and-postconditions.cpp"; sourceTree = "<group>"; };
+		ABF673C6291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2.output"; sourceTree = "<group>"; };
+		ABF673C7291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-postfix-expression-custom-formatting.cpp"; sourceTree = "<group>"; };
+		ABF673C8291EB8FB005A51EC /* pure2-stdio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-stdio.cpp"; sourceTree = "<group>"; };
+		ABF673C9291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-type-safety-2-with-inspect-expression.cpp2.output"; sourceTree = "<group>"; };
+		ABF673CA291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-bugfix-for-name-lookup-and-value-decoration.cpp"; sourceTree = "<group>"; };
+		ABF673CB291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-intro-example-three-loops.cpp2.output"; sourceTree = "<group>"; };
+		ABF673CC291EB8FB005A51EC /* pure2-stdio-with-raii.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-stdio-with-raii.cpp2.output"; sourceTree = "<group>"; };
+		ABF673CD291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-and-std-for-each.cpp2.output"; sourceTree = "<group>"; };
+		ABF673CE291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-intro-example-three-loops.cpp"; sourceTree = "<group>"; };
+		ABF673CF291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-4.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D0291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-inspect-fallback-with-variant-any-optional.cpp"; sourceTree = "<group>"; };
+		ABF673D1291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-captures-in-expressions-and-postconditions.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D2291EB8FB005A51EC /* mixed-bounds-check.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-bounds-check.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D3291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-bugfix-for-name-lookup-and-value-decoration.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D4291EB8FB005A51EC /* pure2-hello.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-hello.cpp"; sourceTree = "<group>"; };
+		ABF673D5291EB8FB005A51EC /* pure2-bounds-safety-span.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pure2-bounds-safety-span.cpp"; sourceTree = "<group>"; };
+		ABF673D6291EB8FB005A51EC /* mixed-allcpp1-hello.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-allcpp1-hello.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D7291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-1.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D8291EB8FB005A51EC /* pure2-lifetime-safety-reject-null.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-lifetime-safety-reject-null.cpp2.output"; sourceTree = "<group>"; };
+		ABF673D9291EB8FB005A51EC /* mixed-multiple-return-values.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-multiple-return-values.cpp2.output"; sourceTree = "<group>"; };
+		ABF673DA291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-postexpression-with-capture.cpp2.output"; sourceTree = "<group>"; };
+		ABF673DB291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-bounds-safety-with-assert.cpp"; sourceTree = "<group>"; };
+		ABF673DC291EB8FB005A51EC /* pure2-stdio.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-stdio.cpp2.output"; sourceTree = "<group>"; };
+		ABF673DD291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-bounds-safety-with-assert.cpp2.output"; sourceTree = "<group>"; };
+		ABF673DE291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-2.cpp2.output"; sourceTree = "<group>"; };
+		ABF673DF291EB8FB005A51EC /* mixed-initialization-safety-3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-initialization-safety-3.cpp"; sourceTree = "<group>"; };
+		ABF673E0291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-function-expression-with-repeated-capture.cpp2.output"; sourceTree = "<group>"; };
+		ABF673E1291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-expression-with-as-in-generic-function.cpp2.output"; sourceTree = "<group>"; };
+		ABF673E2291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-function-expression-with-pointer-capture.cpp"; sourceTree = "<group>"; };
+		ABF673E3291EB8FB005A51EC /* mixed-hello.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-hello.cpp"; sourceTree = "<group>"; };
+		ABF673E4291EB8FB005A51EC /* mixed-parameter-passing.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-parameter-passing.cpp2.output"; sourceTree = "<group>"; };
+		ABF673E5291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-function-expression-and-std-for-each.cpp"; sourceTree = "<group>"; };
+		ABF673E6291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-parameter-passing-with-forward.cpp2.output"; sourceTree = "<group>"; };
+		ABF673E7291EB8FB005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-lifetime-safety-pointer-init-1.cpp2.output"; sourceTree = "<group>"; };
+		ABF673E8291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-bounds-safety-with-assert-2.cpp"; sourceTree = "<group>"; };
+		ABF673E9291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-inspect-expression-in-generic-function-multiple-types.cpp2.output"; sourceTree = "<group>"; };
+		ABF673EA291EB8FB005A51EC /* mixed-bounds-check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-bounds-check.cpp"; sourceTree = "<group>"; };
+		ABF673EB291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-bounds-safety-with-assert-2.cpp2.output"; sourceTree = "<group>"; };
+		ABF673EC291EB8FB005A51EC /* mixed-allcpp1-hello.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "mixed-allcpp1-hello.cpp"; sourceTree = "<group>"; };
+		ABF673ED291EB8FB005A51EC /* mixed-initialization-safety-1.cpp2.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-initialization-safety-1.cpp2.output"; sourceTree = "<group>"; };
+		ABF673EE291EB8FB005A51EC /* mixed-initialization-safety-2.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-initialization-safety-2.cpp2"; sourceTree = "<group>"; };
+		ABF673EF291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-lifetime-safety-pointer-init-4.cpp2"; sourceTree = "<group>"; };
+		ABF673F0291EB8FB005A51EC /* mixed-initialization-safety-3.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-initialization-safety-3.cpp2"; sourceTree = "<group>"; };
+		ABF673F1291EB8FB005A51EC /* pure2-stdio.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-stdio.cpp2"; sourceTree = "<group>"; };
+		ABF673F2291EB8FB005A51EC /* mixed-string-interpolation.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-string-interpolation.cpp2"; sourceTree = "<group>"; };
+		ABF673F3291EB8FB005A51EC /* mixed-type-safety-1.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mixed-type-safety-1.cpp2"; sourceTree = "<group>"; };
+		ABF673F4291EB8FB005A51EC /* pure2-bounds-safety-span.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-bounds-safety-span.cpp2"; sourceTree = "<group>"; };
+		ABF673F5291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-type-safety-2-with-inspect-expression.cpp2"; sourceTree = "<group>"; };
+		ABF673F6291EB8FB005A51EC /* pure2-stdio-with-raii.cpp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pure2-stdio-with-raii.cpp2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +546,7 @@
 		ABD10537291E8D7A0083B993 /* passthrough-tests */ = {
 			isa = PBXGroup;
 			children = (
+				ABF67367291EB8DF005A51EC /* passthrough-tests */,
 				ABD10523291E88330083B993 /* passthrough_tests.mm */,
 			);
 			name = "passthrough-tests";
@@ -136,9 +555,168 @@
 		ABD10538291E8D980083B993 /* regression-tests */ = {
 			isa = PBXGroup;
 			children = (
+				ABF67374291EB8FB005A51EC /* regression-tests */,
 				ABD10530291E887F0083B993 /* regression_tests.mm */,
 			);
 			name = "regression-tests";
+			sourceTree = "<group>";
+		};
+		ABF67367291EB8DF005A51EC /* passthrough-tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF67368291EB8DF005A51EC /* msvc-msstl-e.cpp */,
+				ABF67369291EB8DF005A51EC /* clang-12-libstdc++-e.cpp */,
+				ABF6736A291EB8DF005A51EC /* gcc-10-libstdc++-e.cpp2 */,
+				ABF6736B291EB8DF005A51EC /* clang-12-libstdc++-e.cpp2 */,
+				ABF6736C291EB8DF005A51EC /* gcc-10-libstdc++-e.cpp */,
+				ABF6736E291EB8DF005A51EC /* all-std.cxx */,
+				ABF6736F291EB8DF005A51EC /* msvc-msstl-e.cpp2 */,
+			);
+			name = "passthrough-tests";
+			path = "cppfront/passthrough-tests";
+			sourceTree = "<group>";
+		};
+		ABF67374291EB8FB005A51EC /* regression-tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF67375291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2 */,
+				ABF67376291EB8FB005A51EC /* mixed-hello.cpp2 */,
+				ABF67377291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp2 */,
+				ABF67378291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2 */,
+				ABF6737A291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2 */,
+				ABF6737B291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp2 */,
+				ABF6737C291EB8FB005A51EC /* pure2-lifetime-safety-reject-null.cpp2 */,
+				ABF6737D291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp2 */,
+				ABF6737E291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp2 */,
+				ABF6737F291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp2 */,
+				ABF67380291EB8FB005A51EC /* mixed-initialization-safety-1.cpp2 */,
+				ABF67381291EB8FB005A51EC /* mixed-parameter-passing.cpp2 */,
+				ABF67382291EB8FB005A51EC /* mixed-multiple-return-values.cpp2 */,
+				ABF67383291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2 */,
+				ABF67384291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2 */,
+				ABF67385291EB8FB005A51EC /* pure2-type-safety-1.cpp2 */,
+				ABF67386291EB8FB005A51EC /* mixed-bounds-check.cpp2 */,
+				ABF67387291EB8FB005A51EC /* mixed-allcpp1-hello.cpp2 */,
+				ABF67388291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp2 */,
+				ABF67389291EB8FB005A51EC /* mixed-test-parens.cpp2 */,
+				ABF6738A291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2 */,
+				ABF6738B291EB8FB005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2 */,
+				ABF6738C291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2 */,
+				ABF6738D291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp2 */,
+				ABF6738E291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp2 */,
+				ABF6738F291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp2 */,
+				ABF67390291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp2 */,
+				ABF67391291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2 */,
+				ABF67392291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp2 */,
+				ABF67393291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2 */,
+				ABF67394291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2 */,
+				ABF67395291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp2 */,
+				ABF67396291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2 */,
+				ABF67397291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2 */,
+				ABF67398291EB8FB005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2 */,
+				ABF67399291EB8FB005A51EC /* pure2-hello.cpp2 */,
+				ABF6739A291EB8FB005A51EC /* test-results */,
+				ABF673EE291EB8FB005A51EC /* mixed-initialization-safety-2.cpp2 */,
+				ABF673EF291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2 */,
+				ABF673F0291EB8FB005A51EC /* mixed-initialization-safety-3.cpp2 */,
+				ABF673F1291EB8FB005A51EC /* pure2-stdio.cpp2 */,
+				ABF673F2291EB8FB005A51EC /* mixed-string-interpolation.cpp2 */,
+				ABF673F3291EB8FB005A51EC /* mixed-type-safety-1.cpp2 */,
+				ABF673F4291EB8FB005A51EC /* pure2-bounds-safety-span.cpp2 */,
+				ABF673F5291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2 */,
+				ABF673F6291EB8FB005A51EC /* pure2-stdio-with-raii.cpp2 */,
+			);
+			name = "regression-tests";
+			path = "cppfront/regression-tests";
+			sourceTree = "<group>";
+		};
+		ABF6739A291EB8FB005A51EC /* test-results */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6739B291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp */,
+				ABF6739C291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp */,
+				ABF6739D291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp2.output */,
+				ABF6739E291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp */,
+				ABF6739F291EB8FB005A51EC /* pure2-stdio-with-raii.cpp */,
+				ABF673A0291EB8FB005A51EC /* pure2-hello.cpp2.output */,
+				ABF673A1291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp */,
+				ABF673A2291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp2.output */,
+				ABF673A3291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp2.output */,
+				ABF673A4291EB8FB005A51EC /* mixed-multiple-return-values.cpp */,
+				ABF673A6291EB8FB005A51EC /* mixed-type-safety-1.cpp */,
+				ABF673A7291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp2.output */,
+				ABF673A8291EB8FB005A51EC /* mixed-hello.cpp2.output */,
+				ABF673A9291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp2.output */,
+				ABF673AA291EB8FB005A51EC /* pure2-type-safety-1.cpp */,
+				ABF673AB291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp2.output */,
+				ABF673AC291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp */,
+				ABF673AD291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp2.output */,
+				ABF673AE291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp */,
+				ABF673AF291EB8FB005A51EC /* mixed-test-parens.cpp2.output */,
+				ABF673B0291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp */,
+				ABF673B1291EB8FB005A51EC /* mixed-initialization-safety-3.cpp2.output */,
+				ABF673B2291EB8FB005A51EC /* mixed-string-interpolation.cpp2.output */,
+				ABF673B3291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp2.output */,
+				ABF673B4291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp */,
+				ABF673B5291EB8FB005A51EC /* pure2-bounds-safety-pointer-arithmetic-error.cpp2.output */,
+				ABF673B6291EB8FB005A51EC /* mixed-test-parens.cpp */,
+				ABF673B7291EB8FB005A51EC /* mixed-type-safety-1.cpp2.output */,
+				ABF673B8291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-3.cpp2.output */,
+				ABF673B9291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp */,
+				ABF673BA291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp */,
+				ABF673BB291EB8FB005A51EC /* pure2-bounds-safety-span.cpp2.output */,
+				ABF673BC291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp */,
+				ABF673BD291EB8FB005A51EC /* mixed-parameter-passing.cpp */,
+				ABF673BE291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp2.output */,
+				ABF673BF291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp */,
+				ABF673C0291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp */,
+				ABF673C1291EB8FB005A51EC /* pure2-type-safety-1.cpp2.output */,
+				ABF673C2291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp */,
+				ABF673C3291EB8FB005A51EC /* mixed-string-interpolation.cpp */,
+				ABF673C4291EB8FB005A51EC /* mixed-initialization-safety-2.cpp2.output */,
+				ABF673C5291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp */,
+				ABF673C6291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp2.output */,
+				ABF673C7291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp */,
+				ABF673C8291EB8FB005A51EC /* pure2-stdio.cpp */,
+				ABF673C9291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp2.output */,
+				ABF673CA291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp */,
+				ABF673CB291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp2.output */,
+				ABF673CC291EB8FB005A51EC /* pure2-stdio-with-raii.cpp2.output */,
+				ABF673CD291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp2.output */,
+				ABF673CE291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp */,
+				ABF673CF291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp2.output */,
+				ABF673D0291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp */,
+				ABF673D1291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp2.output */,
+				ABF673D2291EB8FB005A51EC /* mixed-bounds-check.cpp2.output */,
+				ABF673D3291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp2.output */,
+				ABF673D4291EB8FB005A51EC /* pure2-hello.cpp */,
+				ABF673D5291EB8FB005A51EC /* pure2-bounds-safety-span.cpp */,
+				ABF673D6291EB8FB005A51EC /* mixed-allcpp1-hello.cpp2.output */,
+				ABF673D7291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-1.cpp2.output */,
+				ABF673D8291EB8FB005A51EC /* pure2-lifetime-safety-reject-null.cpp2.output */,
+				ABF673D9291EB8FB005A51EC /* mixed-multiple-return-values.cpp2.output */,
+				ABF673DA291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp2.output */,
+				ABF673DB291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp */,
+				ABF673DC291EB8FB005A51EC /* pure2-stdio.cpp2.output */,
+				ABF673DD291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp2.output */,
+				ABF673DE291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-2.cpp2.output */,
+				ABF673DF291EB8FB005A51EC /* mixed-initialization-safety-3.cpp */,
+				ABF673E0291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp2.output */,
+				ABF673E1291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp2.output */,
+				ABF673E2291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp */,
+				ABF673E3291EB8FB005A51EC /* mixed-hello.cpp */,
+				ABF673E4291EB8FB005A51EC /* mixed-parameter-passing.cpp2.output */,
+				ABF673E5291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp */,
+				ABF673E6291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp2.output */,
+				ABF673E7291EB8FB005A51EC /* pure2-lifetime-safety-pointer-init-1.cpp2.output */,
+				ABF673E8291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp */,
+				ABF673E9291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp2.output */,
+				ABF673EA291EB8FB005A51EC /* mixed-bounds-check.cpp */,
+				ABF673EB291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp2.output */,
+				ABF673EC291EB8FB005A51EC /* mixed-allcpp1-hello.cpp */,
+				ABF673ED291EB8FB005A51EC /* mixed-initialization-safety-1.cpp2.output */,
+			);
+			path = "test-results";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +728,6 @@
 			buildPhases = (
 				ABD104F3291E83280083B993 /* Sources */,
 				ABD104F4291E83280083B993 /* Frameworks */,
-				ABD104F5291E83280083B993 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -167,7 +744,7 @@
 			buildPhases = (
 				ABD10518291E88030083B993 /* Sources */,
 				ABD10519291E88030083B993 /* Frameworks */,
-				ABD1051A291E88030083B993 /* Resources */,
+				ABF6741C291EB927005A51EC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -185,7 +762,8 @@
 			buildPhases = (
 				ABD10525291E88570083B993 /* Sources */,
 				ABD10526291E88570083B993 /* Frameworks */,
-				ABD10527291E88570083B993 /* Resources */,
+				ABF67423291EB95C005A51EC /* CopyFiles */,
+				ABF67451291EB98D005A51EC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -237,23 +815,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		ABD1051A291E88030083B993 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD10527291E88570083B993 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABD104F3291E83280083B993 /* Sources */ = {
