@@ -1,11 +1,12 @@
 //
-//  regression_tests.m
+//  regression_tests.mm
 //  regression-tests
 //
 //  Created by Gabriel Beauchemin on 11/11/22.
 //
 
 #import <XCTest/XCTest.h>
+#import "cppfront.h"
 
 @interface regression_tests : XCTestCase
 
@@ -24,13 +25,6 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
 }
 
 @end
