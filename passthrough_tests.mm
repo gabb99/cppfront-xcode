@@ -33,21 +33,45 @@
 //    cppfront msvc-msstl-e.cpp2
 //    diff -s -Z msvc-msstl-e.cpp2 msvc-msstl-e.cpp
 
-    XCTAssert(cppfront(@"passthrough-tests/msvc-msstl-e.cpp2", @"passthrough-tests/msvc-msstl-e.cpp", TRUE));
+  NSString* input = [[NSBundle bundleForClass:[self class]] pathForResource:@"msvc-msstl-e"
+                                                                     ofType:@"cpp2"
+                                                                inDirectory:@"passthrough-tests"];
+
+  NSString* output = [[NSBundle bundleForClass:[self class]] pathForResource:@"msvc-msstl-e"
+                                                                      ofType:@"cpp"
+                                                                 inDirectory:@"passthrough-tests"];
+
+  XCTAssert(cppfront(input, output, TRUE));
 }
 
 - (void)test_gcc10 {
 //    cppfront gcc-10-libstdc++-e.cpp2
 //    diff -s -Z gcc-10-libstdc++-e.cpp2 gcc-10-libstdc++-e.cpp
 
-    XCTAssert(cppfront(@"passthrough-tests/gcc-10-libstdc++-e.cpp2", @"passthrough-tests/gcc-10-libstdc++-e.cpp", TRUE));
+  NSString* input = [[NSBundle bundleForClass:[self class]] pathForResource:@"gcc-10-libstdc++-e"
+                                                                     ofType:@"cpp2"
+                                                                inDirectory:@"passthrough-tests"];
+
+  NSString* output = [[NSBundle bundleForClass:[self class]] pathForResource:@"gcc-10-libstdc++-e"
+                                                                      ofType:@"cpp"
+                                                                 inDirectory:@"passthrough-tests"];
+  
+  XCTAssert(cppfront(input, output, TRUE));
 }
 
 - (void)test_clang12 {
 //    cppfront clang-12-libstdc++-e.cpp2
 //    diff -s -Z clang-12-libstdc++-e.cpp2 clang-12-libstdc++-e.cpp
 
-    XCTAssert(cppfront(@"passthrough-tests/clang-12-libstdc++-e.cpp2", @"passthrough-tests/clang-12-libstdc++-e.cpp", TRUE));
+  NSString* input = [[NSBundle bundleForClass:[self class]] pathForResource:@"clang-12-libstdc++-e"
+                                                                     ofType:@"cpp2"
+                                                                inDirectory:@"passthrough-tests"];
+
+  NSString* output = [[NSBundle bundleForClass:[self class]] pathForResource:@"clang-12-libstdc++-e"
+                                                                      ofType:@"cpp"
+                                                                 inDirectory:@"passthrough-tests"];
+
+  XCTAssert(cppfront(input, output, TRUE));
 }
 
 @end

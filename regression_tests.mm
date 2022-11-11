@@ -23,8 +23,8 @@
 }
 
 - (void)testMixed {
-  NSArray* dirs = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:@"regression-tests"
-                                                                      error:NULL];
+  NSArray* dirs = [[NSBundle bundleForClass:[self class]] pathsForResourcesOfType:@"cpp2"
+                                                                      inDirectory:@"regression-tests"];
 
   [dirs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
       NSString *filename = (NSString *)obj;
@@ -37,8 +37,8 @@
 }
 
 - (void)testPure {
-  NSArray* dirs = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:@"regression-tests"
-                                                                      error:NULL];
+  NSArray* dirs = [[NSBundle bundleForClass:[self class]] pathsForResourcesOfType:@"cpp2"
+                                                                      inDirectory:@"regression-tests"];
 
   [dirs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
       NSString *filename = (NSString *)obj;
