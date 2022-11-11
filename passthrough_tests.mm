@@ -23,34 +23,31 @@
 
     cl all-std.cxx -std:c++latest /E > msvc-msstl-e.cpp2
 */
- }
+}
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
-- (void)mvsc {
+- (void)test_mvsc {
 //    cppfront msvc-msstl-e.cpp2
 //    diff -s -Z msvc-msstl-e.cpp2 msvc-msstl-e.cpp
 
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(cppfront(@"passthrough-tests/msvc-msstl-e.cpp2", @"passthrough-tests/msvc-msstl-e.cpp", TRUE));
 }
 
-- (void)gcc10 {
+- (void)test_gcc10 {
 //    cppfront gcc-10-libstdc++-e.cpp2
 //    diff -s -Z gcc-10-libstdc++-e.cpp2 gcc-10-libstdc++-e.cpp
 
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(cppfront(@"passthrough-tests/gcc-10-libstdc++-e.cpp2", @"passthrough-tests/gcc-10-libstdc++-e.cpp", TRUE));
 }
 
-- (void)clang12 {
+- (void)test_clang12 {
 //    cppfront clang-12-libstdc++-e.cpp2
 //    diff -s -Z clang-12-libstdc++-e.cpp2 clang-12-libstdc++-e.cpp
 
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(cppfront(@"passthrough-tests/clang-12-libstdc++-e.cpp2", @"passthrough-tests/clang-12-libstdc++-e.cpp", TRUE));
 }
 
 @end

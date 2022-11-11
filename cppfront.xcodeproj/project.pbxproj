@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		ABD10524291E88330083B993 /* passthrough_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10523291E88330083B993 /* passthrough_tests.mm */; };
 		ABD10531291E887F0083B993 /* regression_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10530291E887F0083B993 /* regression_tests.mm */; };
-		ABD1055A291E8E9F0083B993 /* cppfront.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABD10502291E85A40083B993 /* cppfront.cpp */; };
-		ABD1055B291E8EA00083B993 /* cppfront.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABD10502291E85A40083B993 /* cppfront.cpp */; };
-		ABD10564291E95490083B993 /* cppfront.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10563291E95490083B993 /* cppfront.mm */; };
-		ABD10565291E954D0083B993 /* cppfront.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10563291E95490083B993 /* cppfront.mm */; };
+		ABD10567291EAAFB0083B993 /* cppfront.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABD10502291E85A40083B993 /* cppfront.cpp */; };
+		ABD10568291EAB120083B993 /* cppfront.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10563291E95490083B993 /* cppfront.mm */; };
+		ABD1056A291EAB4C0083B993 /* cppfront.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10563291E95490083B993 /* cppfront.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +59,7 @@
 		ABD10530291E887F0083B993 /* regression_tests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = regression_tests.mm; sourceTree = SOURCE_ROOT; };
 		ABD10563291E95490083B993 /* cppfront.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cppfront.mm; sourceTree = "<group>"; };
 		ABD10566291E95CF0083B993 /* cppfront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cppfront.h; sourceTree = "<group>"; };
+		ABD1056B291EAD9E0083B993 /* cppfront_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cppfront_impl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +92,7 @@
 			children = (
 				ABD1050C291E861D0083B993 /* cpp2util.h */,
 				ABD10563291E95490083B993 /* cppfront.mm */,
+				ABD1056B291EAD9E0083B993 /* cppfront_impl.h */,
 				ABD10566291E95CF0083B993 /* cppfront.h */,
 				ABD104F9291E83280083B993 /* cppfront */,
 				ABD10538291E8D980083B993 /* regression-tests */,
@@ -259,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD10567291EAAFB0083B993 /* cppfront.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD10524291E88330083B993 /* passthrough_tests.mm in Sources */,
-				ABD1055A291E8E9F0083B993 /* cppfront.cpp in Sources */,
-				ABD10565291E954D0083B993 /* cppfront.mm in Sources */,
+				ABD10568291EAB120083B993 /* cppfront.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD10531291E887F0083B993 /* regression_tests.mm in Sources */,
-				ABD1055B291E8EA00083B993 /* cppfront.cpp in Sources */,
-				ABD10564291E95490083B993 /* cppfront.mm in Sources */,
+				ABD1056A291EAB4C0083B993 /* cppfront.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

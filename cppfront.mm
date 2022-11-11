@@ -16,6 +16,7 @@
 //===========================================================================
 
 #include "cppfront.h"
+#include "cppfront_impl.h"
 
 //===========================================================================
 //  main - driver
@@ -23,43 +24,40 @@
 
 static auto enable_debug_output_files = false;
 
-
-auto cppfront(int argc, char* argv[]) -> int
+BOOL cppfront(NSString* input, NSString* output, BOOL pure)
 {
-    //  For each .cpp2 source file
-    for (auto const& arg : cmdline.arguments())
-    {
-        std::cout << arg.text << "...";
+    std::cout << [input UTF8String] << "...";
 
-        //  Load + lex + parse + sema
-        cpp2::cppfront c(arg.text);
+    //  Load + lex + parse + sema
+    cpp2::cppfront c([input UTF8String]);
 
-        //  Generate Cpp1 (this may catch additional late errors)
-        c.lower_to_cpp1();
+    //  Generate Cpp1 (this may catch additional late errors)
+    c.lower_to_cpp1();
 
-        //  If there were no errors, say so and generate Cpp1
-        if (c.had_no_errors()) {
-            if (!c.has_cpp1()) {
-                std::cout << " ok (all Cpp2, passes safety checks)\n\n";
-            }
-            else if (c.has_cpp2()) {
-                std::cout << " ok (mixed Cpp1/Cpp2, Cpp2 code passes safety checks)\n\n";
-            }
-            else {
-                std::cout << " ok (all Cpp1)\n\n";
-            }
+    //  If there were no errors, say so and generate Cpp1
+    if (c.had_no_errors()) {
+        if (!c.has_cpp1()) {
+            std::cout << " ok (all Cpp2, passes safety checks)\n\n";
         }
-        //  Otherwise, print the errors
+        else if (c.has_cpp2()) {
+            std::cout << " ok (mixed Cpp1/Cpp2, Cpp2 code passes safety checks)\n\n";
+        }
         else {
-            std::cout << "\n";
-            c.print_errors();
-            std::cout << "\n";
-        }
-
-        //  In any case, emit the debug information (during early development this is
-        //  on by default, later we'll flip the switch to turn it on instead of off)
-        if (enable_debug_output_files) {
-            c.debug_print();
+            std::cout << " ok (all Cpp1)\n\n";
         }
     }
+    //  Otherwise, print the errors
+    else {
+        std::cout << "\n";
+        c.print_errors();
+        std::cout << "\n";
+    }
+
+    //  In any case, emit the debug information (during early development this is
+    //  on by default, later we'll flip the switch to turn it on instead of off)
+    if (enable_debug_output_files) {
+        c.debug_print();
+    }
+
+    return c.had_no_errors();
 }

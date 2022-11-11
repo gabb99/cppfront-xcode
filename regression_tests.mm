@@ -22,9 +22,32 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testMixed {
+  NSArray* dirs = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:@"regression-tests"
+                                                                      error:NULL];
+
+  [dirs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+      NSString *filename = (NSString *)obj;
+      NSString *extension = [[filename pathExtension] lowercaseString];
+      if ([extension hasPrefix:@"mixed-"]) {
+          NSString* result = [NSString stringWithFormat:@"%@%@%@", @"regression-tests/test-results/", filename, @".cpp"];
+          XCTAssert(result);
+      }
+  }];
+}
+
+- (void)testPure {
+  NSArray* dirs = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:@"regression-tests"
+                                                                      error:NULL];
+
+  [dirs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+      NSString *filename = (NSString *)obj;
+      NSString *extension = [[filename pathExtension] lowercaseString];
+      if ([extension hasPrefix:@"pure-"]) {
+          NSString* result = [NSString stringWithFormat:@"%@%@%@", @"regression-tests/test-results/", filename, @".cpp"];
+          XCTAssert(result);
+      }
+  }];
 }
 
 @end
