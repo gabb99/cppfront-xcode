@@ -1,4 +1,4 @@
 
 #import <Foundation/Foundation.h>
 
-BOOL cppfront(NSString* input, NSString* output, BOOL pure);
+void cppfront(NSString* input, NSString* output, BOOL pure);

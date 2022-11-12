@@ -18,15 +18,22 @@
 #include "cppfront.h"
 #include "cppfront_impl.h"
 
+#import <XCTest/XCTest.h>
+
 //===========================================================================
 //  main - driver
 //===========================================================================
 
-static auto enable_debug_output_files = false;
-
-BOOL cppfront(NSString* input, NSString* output, BOOL pure)
+void cppfront(NSString* input, NSString* output, BOOL pure)
 {
-    std::cout << "Processing " << [input UTF8String] << "...";
+    std::cout << "Processing " << [[input lastPathComponent] UTF8String] << " ...";
+
+    // Make a copy of the output, since it gets over written by lower_to_cpp1()
+    NSString* expectedOutput = [NSString stringWithContentsOfFile:output
+                                                         encoding:NSUTF8StringEncoding
+                                                            error:NULL];
+
+    XCTAssert([expectedOutput length] != 0);
 
     //  Load + lex + parse + sema
     cpp2::cppfront c([input UTF8String]);
@@ -34,30 +41,13 @@ BOOL cppfront(NSString* input, NSString* output, BOOL pure)
     //  Generate Cpp1 (this may catch additional late errors)
     c.lower_to_cpp1();
 
-    //  If there were no errors, say so and generate Cpp1
-    if (c.had_no_errors()) {
-        if (!c.has_cpp1()) {
-            std::cout << " ok (all Cpp2, passes safety checks)\n\n";
-        }
-        else if (c.has_cpp2()) {
-            std::cout << " ok (mixed Cpp1/Cpp2, Cpp2 code passes safety checks)\n\n";
-        }
-        else {
-            std::cout << " ok (all Cpp1)\n\n";
-        }
-    }
-    //  Otherwise, print the errors
-    else {
-        std::cout << "\n";
-        c.print_errors();
-        std::cout << "\n";
-    }
+    XCTAssert(c.had_no_errors());
 
-    //  In any case, emit the debug information (during early development this is
-    //  on by default, later we'll flip the switch to turn it on instead of off)
-    if (enable_debug_output_files) {
-        c.debug_print();
-    }
+    // Read-in the final output, to compare later on
+    NSString* outputAsCpp = [NSString stringWithContentsOfFile:output
+                                                      encoding:NSUTF8StringEncoding
+                                                         error:NULL];
 
-    return c.had_no_errors();
+    XCTAssert([outputAsCpp length] != 0);
+    XCTAssertEqualObjects(expectedOutput, outputAsCpp);
 }

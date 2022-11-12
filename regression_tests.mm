@@ -8,7 +8,11 @@
 #import <XCTest/XCTest.h>
 #import "cppfront.h"
 
-@interface regression_tests : XCTestCase
+@interface regression_tests : XCTestCase {
+
+    NSString* resourcePath;
+    NSArray* cpp2Array;
+}
 
 @end
 
@@ -16,6 +20,11 @@
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    resourcePath = [NSBundle bundleForClass:[self class]].resourcePath;
+    
+    cpp2Array = [[NSBundle bundleForClass:[self class]] pathsForResourcesOfType:@"cpp2"
+                                                                    inDirectory:@"regression-tests"];
+
 }
 
 - (void)tearDown {
@@ -23,29 +32,23 @@
 }
 
 - (void)testMixed {
-  NSArray* dirs = [[NSBundle bundleForClass:[self class]] pathsForResourcesOfType:@"cpp2"
-                                                                      inDirectory:@"regression-tests"];
 
-  [dirs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-      NSString *filename = (NSString *)obj;
-      NSString *extension = [[filename pathExtension] lowercaseString];
-      if ([extension hasPrefix:@"mixed-"]) {
-          NSString* result = [NSString stringWithFormat:@"%@%@%@", @"regression-tests/test-results/", filename, @".cpp"];
-          XCTAssert(result);
+  [cpp2Array enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+      NSString *filename = [(NSString *)obj lastPathComponent];
+      if ([filename hasPrefix:@"mixed-"]) {
+          NSString* result = [NSString stringWithFormat:@"%@%@%@%@", resourcePath, @"/regression-tests/test-results/", [filename stringByDeletingPathExtension], @".cpp"];
+          cppfront((NSString *)obj, result, FALSE);
       }
   }];
 }
 
 - (void)testPure {
-  NSArray* dirs = [[NSBundle bundleForClass:[self class]] pathsForResourcesOfType:@"cpp2"
-                                                                      inDirectory:@"regression-tests"];
 
-  [dirs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-      NSString *filename = (NSString *)obj;
-      NSString *extension = [[filename pathExtension] lowercaseString];
-      if ([extension hasPrefix:@"pure-"]) {
-          NSString* result = [NSString stringWithFormat:@"%@%@%@", @"regression-tests/test-results/", filename, @".cpp"];
-          XCTAssert(result);
+    [cpp2Array enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+      NSString *filename = [(NSString *)obj lastPathComponent];
+      if ([filename hasPrefix:@"pure2-"]) {
+          NSString* result = [NSString stringWithFormat:@"%@%@%@%@", resourcePath, @"/regression-tests/test-results/", [filename stringByDeletingPathExtension], @".cpp"];
+          cppfront((NSString *)obj, result, TRUE);
       }
   }];
 }
