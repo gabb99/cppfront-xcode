@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82011B0D29206716009F14D0 /* mixed-bounds-check.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673EA291EB8FB005A51EC /* mixed-bounds-check.cpp */; };
+		82011B0E29206716009F14D0 /* mixed-bounds-safety-with-assert-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673E8291EB8FB005A51EC /* mixed-bounds-safety-with-assert-2.cpp */; };
+		82011B0F29206716009F14D0 /* mixed-allcpp1-hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673EC291EB8FB005A51EC /* mixed-allcpp1-hello.cpp */; };
+		82011B1029206723009F14D0 /* pure2-bounds-safety-span.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673D5291EB8FB005A51EC /* pure2-bounds-safety-span.cpp */; };
+		82011B1129206723009F14D0 /* mixed-function-expression-with-pointer-capture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673E2291EB8FB005A51EC /* mixed-function-expression-with-pointer-capture.cpp */; };
+		82011B1229206723009F14D0 /* mixed-hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673E3291EB8FB005A51EC /* mixed-hello.cpp */; };
+		82011B1329206723009F14D0 /* mixed-initialization-safety-3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673DF291EB8FB005A51EC /* mixed-initialization-safety-3.cpp */; };
+		82011B1429206723009F14D0 /* mixed-function-expression-and-std-for-each.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673E5291EB8FB005A51EC /* mixed-function-expression-and-std-for-each.cpp */; };
+		82011B1529206723009F14D0 /* pure2-hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673D4291EB8FB005A51EC /* pure2-hello.cpp */; };
+		82011B1629206723009F14D0 /* mixed-bounds-safety-with-assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673DB291EB8FB005A51EC /* mixed-bounds-safety-with-assert.cpp */; };
+		82011B172920672D009F14D0 /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673CA291EB8FB005A51EC /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp */; };
+		82011B182920672D009F14D0 /* pure2-stdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673C8291EB8FB005A51EC /* pure2-stdio.cpp */; };
+		82011B192920672D009F14D0 /* pure2-inspect-fallback-with-variant-any-optional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673D0291EB8FB005A51EC /* pure2-inspect-fallback-with-variant-any-optional.cpp */; };
+		82011B1A2920672D009F14D0 /* mixed-postfix-expression-custom-formatting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673C7291EB8FB005A51EC /* mixed-postfix-expression-custom-formatting.cpp */; };
+		82011B1B2920672D009F14D0 /* pure2-intro-example-three-loops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673CE291EB8FB005A51EC /* pure2-intro-example-three-loops.cpp */; };
+		82011B1C29206746009F14D0 /* mixed-string-interpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673C3291EB8FB005A51EC /* mixed-string-interpolation.cpp */; };
+		82011B1D29206746009F14D0 /* mixed-test-parens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673B6291EB8FB005A51EC /* mixed-test-parens.cpp */; };
+		82011B1E29206746009F14D0 /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673C2291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp */; };
+		82011B1F29206746009F14D0 /* mixed-lifetime-safety-and-null-contracts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673AC291EB8FB005A51EC /* mixed-lifetime-safety-and-null-contracts.cpp */; };
+		82011B2029206746009F14D0 /* pure2-inspect-expression-with-as-in-generic-function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673AE291EB8FB005A51EC /* pure2-inspect-expression-with-as-in-generic-function.cpp */; };
+		82011B2129206746009F14D0 /* mixed-function-expression-and-std-ranges-for-each.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673C0291EB8FB005A51EC /* mixed-function-expression-and-std-ranges-for-each.cpp */; };
+		82011B2229206746009F14D0 /* mixed-function-expression-with-repeated-capture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673B9291EB8FB005A51EC /* mixed-function-expression-with-repeated-capture.cpp */; };
+		82011B2329206746009F14D0 /* mixed-intro-example-three-loops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673B0291EB8FB005A51EC /* mixed-intro-example-three-loops.cpp */; };
+		82011B2429206746009F14D0 /* pure2-intro-example-hello-2022.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673BC291EB8FB005A51EC /* pure2-intro-example-hello-2022.cpp */; };
+		82011B2529206746009F14D0 /* mixed-parameter-passing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673BD291EB8FB005A51EC /* mixed-parameter-passing.cpp */; };
+		82011B2629206746009F14D0 /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673BF291EB8FB005A51EC /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp */; };
+		82011B2729206746009F14D0 /* pure2-type-safety-2-with-inspect-expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673B4291EB8FB005A51EC /* pure2-type-safety-2-with-inspect-expression.cpp */; };
+		82011B2829206746009F14D0 /* pure2-type-safety-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673AA291EB8FB005A51EC /* pure2-type-safety-1.cpp */; };
+		82011B2929206746009F14D0 /* mixed-parameter-passing-with-forward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673BA291EB8FB005A51EC /* mixed-parameter-passing-with-forward.cpp */; };
+		82011B2A29206746009F14D0 /* mixed-captures-in-expressions-and-postconditions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673C5291EB8FB005A51EC /* mixed-captures-in-expressions-and-postconditions.cpp */; };
+		82011B2B29206755009F14D0 /* mixed-postexpression-with-capture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF6739C291EB8FB005A51EC /* mixed-postexpression-with-capture.cpp */; };
+		82011B2C29206755009F14D0 /* pure2-inspect-expression-in-generic-function-multiple-types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF6739E291EB8FB005A51EC /* pure2-inspect-expression-in-generic-function-multiple-types.cpp */; };
+		82011B2D29206755009F14D0 /* pure2-stdio-with-raii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF6739F291EB8FB005A51EC /* pure2-stdio-with-raii.cpp */; };
+		82011B2E29206755009F14D0 /* mixed-multiple-return-values.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673A4291EB8FB005A51EC /* mixed-multiple-return-values.cpp */; };
+		82011B2F29206755009F14D0 /* mixed-type-safety-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673A6291EB8FB005A51EC /* mixed-type-safety-1.cpp */; };
+		82011B3029206755009F14D0 /* mixed-lifetime-safety-pointer-init-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF673A1291EB8FB005A51EC /* mixed-lifetime-safety-pointer-init-4.cpp */; };
+		82011B3129206755009F14D0 /* mixed-intro-for-with-counter-include-last.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABF6739B291EB8FB005A51EC /* mixed-intro-for-with-counter-include-last.cpp */; };
 		ABD10524291E88330083B993 /* passthrough_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10523291E88330083B993 /* passthrough_tests.mm */; };
 		ABD10531291E887F0083B993 /* regression_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABD10530291E887F0083B993 /* regression_tests.mm */; };
 		ABD10567291EAAFB0083B993 /* cppfront.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABD10502291E85A40083B993 /* cppfront.cpp */; };
@@ -165,6 +202,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		82011B0429206658009F14D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ABF6741C291EB927005A51EC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -328,6 +374,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		82011B0629206658009F14D0 /* compile-all */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "compile-all"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD104F7291E83280083B993 /* cppfront */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppfront; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD10501291E85A40083B993 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = source/common.h; sourceTree = "<group>"; };
 		ABD10502291E85A40083B993 /* cppfront.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cppfront.cpp; path = source/cppfront.cpp; sourceTree = "<group>"; };
@@ -481,6 +528,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82011B0329206658009F14D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABD104F4291E83280083B993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,6 +579,7 @@
 				ABD104F7291E83280083B993 /* cppfront */,
 				ABD1051C291E88030083B993 /* passthrough-tests.xctest */,
 				ABD10529291E88570083B993 /* regression-tests.xctest */,
+				82011B0629206658009F14D0 /* compile-all */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -722,6 +777,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		82011B0529206658009F14D0 /* compile-all */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82011B0C29206658009F14D0 /* Build configuration list for PBXNativeTarget "compile-all" */;
+			buildPhases = (
+				82011B0229206658009F14D0 /* Sources */,
+				82011B0329206658009F14D0 /* Frameworks */,
+				82011B0429206658009F14D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "compile-all";
+			productName = "compile-all";
+			productReference = 82011B0629206658009F14D0 /* compile-all */;
+			productType = "com.apple.product-type.tool";
+		};
 		ABD104F6291E83280083B993 /* cppfront */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABD104FE291E83280083B993 /* Build configuration list for PBXNativeTarget "cppfront" */;
@@ -785,6 +857,9 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					82011B0529206658009F14D0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					ABD104F6291E83280083B993 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -812,11 +887,56 @@
 				ABD104F6291E83280083B993 /* cppfront */,
 				ABD1051B291E88030083B993 /* passthrough-tests */,
 				ABD10528291E88570083B993 /* regression-tests */,
+				82011B0529206658009F14D0 /* compile-all */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82011B0229206658009F14D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82011B2829206746009F14D0 /* pure2-type-safety-1.cpp in Sources */,
+				82011B1129206723009F14D0 /* mixed-function-expression-with-pointer-capture.cpp in Sources */,
+				82011B3129206755009F14D0 /* mixed-intro-for-with-counter-include-last.cpp in Sources */,
+				82011B0E29206716009F14D0 /* mixed-bounds-safety-with-assert-2.cpp in Sources */,
+				82011B182920672D009F14D0 /* pure2-stdio.cpp in Sources */,
+				82011B2129206746009F14D0 /* mixed-function-expression-and-std-ranges-for-each.cpp in Sources */,
+				82011B1D29206746009F14D0 /* mixed-test-parens.cpp in Sources */,
+				82011B192920672D009F14D0 /* pure2-inspect-fallback-with-variant-any-optional.cpp in Sources */,
+				82011B1629206723009F14D0 /* mixed-bounds-safety-with-assert.cpp in Sources */,
+				82011B1C29206746009F14D0 /* mixed-string-interpolation.cpp in Sources */,
+				82011B1529206723009F14D0 /* pure2-hello.cpp in Sources */,
+				82011B1429206723009F14D0 /* mixed-function-expression-and-std-for-each.cpp in Sources */,
+				82011B0F29206716009F14D0 /* mixed-allcpp1-hello.cpp in Sources */,
+				82011B1F29206746009F14D0 /* mixed-lifetime-safety-and-null-contracts.cpp in Sources */,
+				82011B1029206723009F14D0 /* pure2-bounds-safety-span.cpp in Sources */,
+				82011B2929206746009F14D0 /* mixed-parameter-passing-with-forward.cpp in Sources */,
+				82011B2729206746009F14D0 /* pure2-type-safety-2-with-inspect-expression.cpp in Sources */,
+				82011B2629206746009F14D0 /* pure2-inspect-generic-void-empty-with-variant-any-optional.cpp in Sources */,
+				82011B2429206746009F14D0 /* pure2-intro-example-hello-2022.cpp in Sources */,
+				82011B1329206723009F14D0 /* mixed-initialization-safety-3.cpp in Sources */,
+				82011B1E29206746009F14D0 /* mixed-function-expression-and-std-ranges-for-each-with-capture.cpp in Sources */,
+				82011B2229206746009F14D0 /* mixed-function-expression-with-repeated-capture.cpp in Sources */,
+				82011B1B2920672D009F14D0 /* pure2-intro-example-three-loops.cpp in Sources */,
+				82011B2D29206755009F14D0 /* pure2-stdio-with-raii.cpp in Sources */,
+				82011B2C29206755009F14D0 /* pure2-inspect-expression-in-generic-function-multiple-types.cpp in Sources */,
+				82011B1A2920672D009F14D0 /* mixed-postfix-expression-custom-formatting.cpp in Sources */,
+				82011B2E29206755009F14D0 /* mixed-multiple-return-values.cpp in Sources */,
+				82011B0D29206716009F14D0 /* mixed-bounds-check.cpp in Sources */,
+				82011B2329206746009F14D0 /* mixed-intro-example-three-loops.cpp in Sources */,
+				82011B2F29206755009F14D0 /* mixed-type-safety-1.cpp in Sources */,
+				82011B2B29206755009F14D0 /* mixed-postexpression-with-capture.cpp in Sources */,
+				82011B3029206755009F14D0 /* mixed-lifetime-safety-pointer-init-4.cpp in Sources */,
+				82011B2029206746009F14D0 /* pure2-inspect-expression-with-as-in-generic-function.cpp in Sources */,
+				82011B2529206746009F14D0 /* mixed-parameter-passing.cpp in Sources */,
+				82011B172920672D009F14D0 /* pure2-bugfix-for-name-lookup-and-value-decoration.cpp in Sources */,
+				82011B1229206723009F14D0 /* mixed-hello.cpp in Sources */,
+				82011B2A29206746009F14D0 /* mixed-captures-in-expressions-and-postconditions.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABD104F3291E83280083B993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -859,6 +979,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		82011B0A29206658009F14D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82011B0B29206658009F14D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ABD104FC291E83280083B993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1047,6 +1185,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82011B0C29206658009F14D0 /* Build configuration list for PBXNativeTarget "compile-all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82011B0A29206658009F14D0 /* Debug */,
+				82011B0B29206658009F14D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ABD104F2291E83280083B993 /* Build configuration list for PBXProject "cppfront" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
