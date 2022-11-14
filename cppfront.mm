@@ -24,7 +24,7 @@
 //  main - driver
 //===========================================================================
 
-void cppfront(NSString* input, NSString* output, BOOL pure)
+void cppfront(NSString* input, NSString* output, BOOL pure, BOOL failure)
 {
     std::cout << "Processing " << [[input lastPathComponent] UTF8String] << " ...";
 
@@ -33,7 +33,8 @@ void cppfront(NSString* input, NSString* output, BOOL pure)
                                                          encoding:NSUTF8StringEncoding
                                                             error:NULL];
 
-    XCTAssert([expectedOutput length] != 0);
+    if (!failure)
+        XCTAssert([expectedOutput length] != 0, @"Failed on %@", [output lastPathComponent]);
 
     //  Load + lex + parse + sema
     cpp2::cppfront c([input UTF8String]);
@@ -41,13 +42,21 @@ void cppfront(NSString* input, NSString* output, BOOL pure)
     //  Generate Cpp1 (this may catch additional late errors)
     c.lower_to_cpp1();
 
-    XCTAssert(c.had_no_errors());
+    if (!failure)
+        XCTAssert(c.had_no_errors(), @"Failed on %@", [input lastPathComponent]);
+    else
+    {
+        XCTAssert(!c.had_no_errors(), @"Failed on %@", [input lastPathComponent]);
+    }
 
     // Read-in the final output, to compare later on
     NSString* outputAsCpp = [NSString stringWithContentsOfFile:output
                                                       encoding:NSUTF8StringEncoding
                                                          error:NULL];
 
-    XCTAssert([outputAsCpp length] != 0);
-    XCTAssertEqualObjects(expectedOutput, outputAsCpp);
+    if (!failure)
+    {
+        XCTAssert([outputAsCpp length] != 0, @"Failed on %@", [output lastPathComponent]);
+        XCTAssertEqualObjects(expectedOutput, outputAsCpp, @"Failed on %@", [input lastPathComponent]);
+    }
 }
